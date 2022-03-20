@@ -37,7 +37,7 @@
         overflow-x: hidden;
     }
     .background{
-        background-position: inherit;
+        background-position: -180px 100%!important;
     }
     #_form_2_ ._submit {
         -webkit-appearance: none;
