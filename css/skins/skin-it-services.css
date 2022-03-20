@@ -428,6 +428,14 @@ html .svg-stroke-color-hover-light svg:hover polygon {
     background: linear-gradient(to bottom right, #FFB12A, #3F0200);
     background-image: linear-gradient(to right, #FFB12A, #3F0200);
 }
+@media (prefers-color-scheme: dark) {
+    .background-1{
+        background-color: #FFB12A !important;
+    }
+}
+.background-1{
+    background-color: #FFB12A;
+}
 
 html .bg-color-primary,
 html .bg-primary {

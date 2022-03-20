@@ -1,8 +1,3 @@
-/*
-Name: 			theme.css
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	9.4.0
-*/
 @media (prefers-reduced-motion: no-preference) {
 	:root {
 		scroll-behavior: auto;
@@ -17,7 +12,7 @@ html {
 }
 
 body {
-	background-color: #FFF;
+	background-color: #212529;
 	color: #777;
 	font-family: "Poppins", Arial, sans-serif;
 	font-size: 14px;
@@ -30,7 +25,7 @@ body a {
 }
 
 .body {
-	background-color: #FFF;
+	background-color: #212529;
 }
 
 html.safari:not(.no-safari-overflow-x-fix) .body {
@@ -4845,7 +4840,7 @@ html.ie #header .header-column .header-extra-info .feature-box .feature-box-info
 /* Page Header */
 .page-header {
 	background-color: #212529;
-	margin: 0 0 35px 0;
+	margin: 0;
 	padding: 30px 0;
 	position: relative;
 	text-align: left;
@@ -4890,7 +4885,7 @@ html.ie #header .header-column .header-extra-info .feature-box .feature-box-info
 }
 
 .page-header.page-header-lg {
-	padding: 50px 0;
+	padding: 0;
 }
 
 .page-header.page-header-lg h1 {

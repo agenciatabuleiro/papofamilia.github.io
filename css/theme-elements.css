@@ -2505,6 +2505,7 @@ html body.body .btn:active {
 	background-color: #28a745;
 	border-color: #28a745 #28a745 #1e7e34;
 	color: #FFF;
+	box-shadow:0 100px 80px 0 rgba(121, 243, 84, 0.15), 0 41px 33px 0 rgb(121 243 84 / 11%), 0 23px 18px 0 rgb(121 243 84 / 9%), 0 13px 10px 0 rgb(121 243 84 / 7%), 0 7px 5px 0 rgb(121 243 84 / 6%), 0 3px 2px 0 rgb(121 243 84 / 4%);
 }
 
 .btn-success:hover, .btn-success.hover {
