@@ -19,6 +19,9 @@
     -webkit-animation: pulse 2.5s linear infinite;
     -moz-animation: pulse 2.5s linear infinite;
 }
+.back1{
+    height: 100%;
+}
 .icon-head{
     display: flex;
     flex-direction: row;
