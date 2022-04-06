@@ -3620,7 +3620,7 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 }
 
 .flip-card:hover .flip-front {
-	transform: translate3d(0, 0, -1px) rotateY(-180deg);
+	transform: translate3d(0, 0, -1px) rotateY(0deg);
 }
 
 .flip-card:hover .flip-back {
@@ -3632,11 +3632,11 @@ html.ie9 .call-to-action.button-centered .container > .row > [class*="col-"], ht
 }
 
 .flip-card.flip-card-vertical .flip-back {
-	transform: translate3d(0, 0, -1px) rotateX(180deg);
+	transform: translate3d(0, 0, -1px) rotateX(0deg);
 }
 
 .flip-card.flip-card-vertical:hover .flip-front {
-	transform: translate3d(0, 0, -1px) rotateX(-180deg);
+	transform: translate3d(0, 0, -1px) rotateX(0deg);
 }
 
 .flip-card.flip-card-vertical:hover .flip-back {
