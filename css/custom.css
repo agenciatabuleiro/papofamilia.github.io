@@ -14,6 +14,10 @@
 ::-webkit-scrollbar-thumb:hover {
     box-shadow: inset 0 0 100px 20px #F7931E;
 }
+.card-size{
+	width: 250px;
+	height: 250px;
+}
 .or{
     animation: pulse 2.5s linear infinite;
     -webkit-animation: pulse 2.5s linear infinite;
