@@ -1,0 +1,15 @@
+.tamanho{
+    height: 991px;
+}
+.youtube{
+    width: 100%;
+}
+
+@media all and (min-width:320px) and (max-width:667px){
+    .tamanho{
+        height: 700px !important;
+    }
+    .posicao{
+        background-position: 81% center !important;
+    }
+}
