@@ -123,7 +123,7 @@ html[dir="rtl"] .slider-container .line-pre-title {
 }
 
 .custom-cards.custom-cards-slider .cards-container {
-		margin: -250px auto 0;
+		margin: -180px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -368,7 +368,6 @@ html[dir="rtl"] .slider-container .line-pre-title {
 		width: 200%;
 		z-index: 21;
 		height: 75px;
-		transform: rotate(-1deg);
 }
 
 @media (max-width: 1199px) {
