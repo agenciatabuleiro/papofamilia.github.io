@@ -1,6 +1,19 @@
 .tamanho{
     height: 991px;
 }
+.text-mobile{
+    color: #EC6922;
+    text-shadow: 0 0 5px #e9cab9, 0 0 10px #ec9f75, 0 0 15px #e99568, 0 0 20px #eb8852, 0 0 30px #eb8852, 0 0 40px #eb8852, 0 0 55px #eb8852, 0 0 75px #e6773c, 2px 2px 2px rgba(0,0,0,0);
+}
+.video-container{
+    width: 800px;
+}
+.display-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .youtube{
     width: 100%;
 }
@@ -29,6 +42,9 @@
 }
 
 @media all and (min-width:320px) and (max-width:667px){
+    .video-container{
+        width: 100%;
+    }
     .tamanho{
         height: 700px !important;
     }
