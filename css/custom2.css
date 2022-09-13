@@ -1,5 +1,5 @@
 .tamanho{
-    height: 991px;
+    height: 900px;
 }
 .text-mobile{
     color: #EC6922;
@@ -26,7 +26,7 @@
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    padding: 10px 150px;
+    padding: 10px 150px 10px 15px;
     border: 2px solid #EC6922;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -50,5 +50,13 @@
     }
     .posicao{
         background-position: 81% center !important;
+        position: relative !important;
+    }
+    .text-mobile{
+        color: #EC6922;
+        text-shadow: 0 0 5px #e9cab9, 0 0 10px #ec9f75, 0 0 15px #e99568, 0 0 20px #eb8852, 0 0 30px #eb8852, 0 0 40px #eb8852, 0 0 55px #eb8852, 0 0 75px #e6773c, 2px 2px 2px rgba(0,0,0,0);
+    }
+    .margin-top-mob{
+        margin-top: 20px;
     }
 }
