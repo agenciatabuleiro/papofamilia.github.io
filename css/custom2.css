@@ -1,8 +1,8 @@
 .tamanho{
-    height: 900px;
+    height: 1200px;
 }
 .posicao{
-    background-position: 99% center !important;
+    background-position: center center !important;
 }
 .text-mobile{
     color: #EC6922;
@@ -49,14 +49,16 @@
         width: 100%;
     }
     .tamanho{
-        height: 700px !important;
+        height: 40vh !important;
     }
     .posicao{
-        background-position: 10% center !important;
+        background-size: 900px 40vh !important;
+        background-repeat: no-repeat;
+        background-position: center 0% !important;
     }
     .text-mobile{
         color: #EC6922;
-        text-shadow: 0 0 5px #e9cab9, 0 0 10px #ec9f75, 0 0 15px #e99568, 0 0 20px #eb8852, 0 0 30px #eb8852, 0 0 40px #eb8852, 0 0 55px #eb8852, 0 0 75px #e6773c, 2px 2px 2px rgba(0,0,0,0);
+        text-shadow: 0 0 5px #eb8852, 0 0 10px #eb8852, 0 0 15px #eb8852, 0 0 20px #eb8852, 0 0 30px #eb8852, 0 0 40px #eb8852, 0 0 55px #eb8852, 0 0 75px #eb8852, 2px 2px 2px rgba(0,0,0,0);
     }
     .margin-top-mob{
         margin-top: 20px;
