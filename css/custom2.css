@@ -70,6 +70,16 @@
     .pt-custom{
         padding-top: 36vh;
     }
+    .posicao{
+        background-size: 190% !important;
+        background-repeat: no-repeat;
+        background-position: center 40% !important;
+    }
+}
+@media all and (min-width:1023px) and (max-width:1290px){
+    .pt-custom{
+        padding-top: 36vh;
+    }
 }
 
 @media all and (min-width:320px) and (max-width:667px){
