@@ -62,7 +62,13 @@
 
 @media all and (min-width:1599px) and (max-width:1909px){
     .pt-custom{
-        padding-top: 20vh;
+        padding-top: 30vh;
+    }
+}
+
+@media all and (min-width:1290px) and (max-width:1598px){
+    .pt-custom{
+        padding-top: 36vh;
     }
 }
 
